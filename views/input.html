@@ -1,7 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>INDEX</h1>
+    <h1>Pictaword</h1>
     <p class="center">
-      Welcome to input!
+      Please add words to make a new game:
     </p>
+    <ul>
+    	<form>
+    		<li class="words"> Image 1: 
+    	 		<input type="text" name="game1">
+    	 	</li>
+    		<li> Image 2: 
+    			<input type="text" name="game1">
+    		</li>
+    		<li class="answer"> Answer: 
+    		<input type="text" name="answer"> </li>
+    		<button class="add-word" type="submit"> Add Word </button>
+    		<button id="go" class="go-button" type="submit">Go</button>
+    	</form>
+    </ul>
+
+   
+
 {% endblock %}
